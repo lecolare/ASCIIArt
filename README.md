@@ -5,9 +5,9 @@
 The 2. argument specifies your terminal background color. This is needed for printing the image correctly.
 <br>When the image isn't visible, change your terminal font size to a lower size or lower the image's size.
 ##Examples
-###Before :<br>
+### Before :<br>
    ![Flower](./images/Flower.jpg)
-###After  :  
+### After  :  
    ![Flower](./images/ASCII.png)
     <br> Note: I resized the image and used the -dark argument
 ## Dependencies
