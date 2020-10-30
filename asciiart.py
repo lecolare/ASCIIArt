@@ -13,7 +13,7 @@ def resize_image(input_image_path):
     original_image = Image.open(input_image_path)
     width, height = original_image.size
 
-    new_size = (int(width + (width * 0.4)), height)
+    new_size = (600, height)
 
     resized_image = original_image.resize(new_size)
     return resized_image
@@ -36,7 +36,6 @@ def readImage(path):
     img = resize_image(path)
     width, height = img.size
     px = img.load()
-    print(width, "*", height)
     for y in range(height):
         for x in range(width):
             # print(x, "", y)
