@@ -13,7 +13,7 @@ def resize_image(input_image_path):
     original_image = Image.open(input_image_path)
     width, height = original_image.size
 
-    new_size = (600, height)
+    new_size = (int(width + (width * 0.4)), height)
 
     resized_image = original_image.resize(new_size)
     return resized_image
