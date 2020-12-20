@@ -8,7 +8,7 @@ The 2. argument specifies your terminal background color. This is needed for pri
 ### Before :<br>
    ![Flower](./images/Flower.jpg)
 ### After  :  
-   ![Flower](./images/ASCII.png)
+   ![Flower](./images/asciiart_example_flower.png)
     <br> Note: I resized the image and used the -dark argument
 ## Dependencies
 `pip install -r requirements.txt`
