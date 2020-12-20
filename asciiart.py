@@ -2,11 +2,12 @@ import os
 from PIL import Image
 import sys
 
-CHARACTERS = ".,:'`\;~-_|/=\<+>?)*^(!}{v[I]rcVismYejopWnXtzux17lCFJLT3fSZ2a&@y4GOKMUwAP%k605Ed8Qb9NhBDHRq#g$"
+CHARACTERS = ".,:'`\;~-_|=<lf{)*^1!v[]rcVisgYejobWnAtzux7CFJLT3SZ2a&@y4GOKMUwP%k605Eq8Q9NhBDHR#$"
 rgb_values = []
 ascii_image = []
 image = 0
 
+"""Resize the image, so it don´t look crushed"""
 def resize_image():
 
     width, height = image.size
@@ -84,7 +85,7 @@ if __name__ == '__main__':
     else:
         print(usage)
 
-"""Resize the image, so it don´t look crushed"""
+
 
 
 
